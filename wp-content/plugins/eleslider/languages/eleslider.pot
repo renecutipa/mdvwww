@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: eleslider/widgets/widget-slider.php:103
+#: eleslider/widgets/widget-slider.php:159
+msgid "ASC"
+msgstr ""
+
+#. Text in function
+#: eleslider/functions/post-type-slider.php:1
+msgid "Add New Slide"
+msgstr ""
+
+#. Text in function
+#: eleslider/widgets/widget-slider.php:103
+#: eleslider/widgets/widget-slider.php:158
+msgid "DESC"
+msgstr ""
+
+#. Text in function
+#: eleslider/widgets/widget-slider.php:1
+msgid "Display \"Slider\" posts as slider"
+msgstr ""
+
+#. Text in function
+#: eleslider/widgets/widget-slider.php:1
+msgid "Eleslider"
+msgstr ""
+
+#. Text in echo
+#: eleslider/widgets/widget-slider.php:134
+msgid "Filter by Category"
+msgstr ""
+
+#. Text in echo
+#: eleslider/widgets/widget-slider.php:150
+msgid "Number of posts:"
+msgstr ""
+
+#. Text in echo
+#: eleslider/widgets/widget-slider.php:155
+msgid "Pick a order for \"Slider posts\""
+msgstr ""
+
+#. Text in function
+#: eleslider/functions/post-type-slider.php:1
+msgid "Slide"
+msgstr ""
+
+#. Text in function
+#: eleslider/functions/post-type-slider.php:1
+msgid "Slider posts"
+msgstr ""
+
+#. Text in echo
+#: eleslider/widgets/widget-slider.php:129
+msgid "Title (optional)"
+msgstr ""
