@@ -13,12 +13,13 @@ function epo_styles(){
     wp_enqueue_script('jquery');
      wp_enqueue_script('automatize01js', get_stylesheet_directory_uri().'/js/autoptimize.js');
 }
-function epo_add_favicon(){
-	
-	echo "<link rel='icon' href='".get_stylesheet_directory_uri()."'/images/favicon-logo.png' sizes='32x32'>";
 
-}
 
 add_action('wp_enqueue_scripts', 'epo_styles');	
 
-add_action('wp_stileto', 'epo_add_favicon');
+
+register_nav_menus(
+    array(
+        'quicklinks' => __('Quicklinks', '17epo')
+    )
+);
