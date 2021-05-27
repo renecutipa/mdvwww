@@ -5,7 +5,13 @@
             data-elementor-settings="[]">
             <div class="elementor-inner">
                 <div class="elementor-section-wrap">
-                    <section style="min-height:720px; background: #222933"></section>
+                    <section style="background: #222933">
+                    
+                    <?php
+echo do_shortcode('[smartslider3 slider="3"]');
+?>
+                    
+                    </section>
                     
                     <section
                         class="elementor-section elementor-top-section elementor-element elementor-element-1d93501a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
