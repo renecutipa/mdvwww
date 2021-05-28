@@ -128,17 +128,25 @@
                 </div>
                 <div class="clearfix"></div>
                 <div id="bottombar" class="bottomnav tranz" role="navigation" aria-label="Quick Links">
-                    <p class="menu_label">GESTIÓN 2019-2022</p>
-                    <?php
-                        wp_nav_menu(array(
-                            'theme_location'=>'quicklinks',
-                            'container_class'=>'header-right',
-                            'menu_class'=>'nav',
-                            'menu_id'=>'add-nav'
-                        ));
-                    ?>                    
+                    <p class="menu_label">GESTIÓN 2019-2022</p>                   
                     <div class="header-right">
-                        
+                        <ul id="add-nav" class="nav">
+                            <li id="menu-item-5541"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5541"><a
+                                    href="http://dannci.wpmasters.org/citygov/request-a-311-service/">TURISMO</a></li>
+                            <li id="menu-item-5542"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5542"><a
+                                    href="http://dannci.wpmasters.org/citygov/administration/">CONVOCATORIAS</a></li>
+                            <li id="menu-item-5544"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5544"><a
+                                    href="http://dannci.wpmasters.org/citygov/residents/how-do-i/">COMUNICADOS</a></li>
+                            <li id="menu-item-6207"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6207"><a
+                                    href="http://dannci.wpmasters.org/citygov/government/">ORDENANZAS</a></li>
+                            <li id="menu-item-6208"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6208"><a
+                                    href="http://dannci.wpmasters.org/citygov/pages/faqs/">CORREO INSTITUCIONAL</a></li>
+                        </ul>
                         <ul class="social-menu tranz">
                             <li class="sprite-facebook"><a class="mk-social-facebook"
                                     href="http://dannci.wpmasters.org/citygov/#Facebook"><i
